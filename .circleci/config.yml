@@ -31,7 +31,7 @@ jobs:
       - run:
           name: Run tests
           command: npm install
-          command: node app.js
+          command: npm app.js
 
 workflows:
   # Below is the definition of your workflow.
